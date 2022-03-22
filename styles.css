@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    text-decoration: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* fonts */
+.card-title{
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+
+}
+.card-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.email-form-title {
+    font-size: 1.2rem;
+    font-weight: 400 ;
+    padding-bottom: 20px;
+}
+
+/* banner wrap */
+.banner-wrap{
+    background-image: url(./assets/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 8px solid #222222;
+    position: relative;
+    z-index: 1;
+}
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+
+}
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0 45px;
+    padding-top: 45px;
+    
+}
+.navbar > img {
+    height: 32px;
+
+} 
+.navbar > a{
+    padding: 7px 17px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 45px);
+    text-align: center;
+}
+.get-started-form{
+    height: 60px;
+    display: flex;
+
+
+}
+.get-started-form >input {
+    height: 60px;
+    width: 450px;
+    padding-left: 10px;
+}
+.get-started-form > button {
+    background-color: red;
+    color: white;
+    height: 100%;
+    font-size: 1.625rem;
+    border: none;
+    padding: 0 26px;
+    border-left: 1px solid black;
+
+
+}
+.info-container{
+    background-color: black;
+    color: white;
+    display: flex;
+   
+    padding: 70px 0px 70px 120px;
+    border-bottom: 10px solid #222222;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 65px 0 0;
+}
+.tv-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tv-container video{
+    position: absolute;
+    height: 217px;
+    width: 387px;
+}
+.tv-container img{
+    position: relative;
+     top: 2%;
+    z-index: 1;
+   height: 398px;
+   width: 530px;
+}
+.story-card-info {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 45px 70px;
+    display: flex;
+    border-bottom: 10px solid #222222;
+    
+}
+#img-relative{
+    position: relative;
+    height: 379px;
+
+}
+#img-absolute{
+    height: 72px;
+    padding-right: 15px;
+    
+}
+.story-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+.card-container{
+    background-image: url(./assets/download-icon.gif);
+    background-size: 48px 60px;
+    background-repeat: no-repeat;
+    background-position: 95%;
+    position: absolute;
+    bottom: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #313035;
+    height: 96px;
+    width: 330px;
+    border-radius: 10px;
+    padding: 0.5em 0.75em;
+    
+
+
+}
+.in-card-text{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+   
+
+.story-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0 0 6rem;
+    
+    
+    }
+    .location-text{
+        background-color: black;
+        color: white;
+        padding: 45px 110px;
+        border-bottom: 10px solid #222222;
+        }
+
+    .animation-card{
+        color: white;
+        background-color: black;
+        padding: 45px 70px;
+        display: flex;
+        border-bottom: 10px solid #222222;
+      }
+      .animation-card > img {
+          height: 382px;
+       }
+       .animation-info{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           padding: 0 0 0 3rem;
+          }
+
+         /* Footer */
+          .footer{
+            
+              background-color: black;
+             
+
+          }
+          .footer{
+              padding-left: 129px;
+
+
+          }
+          .footer-items {
+              margin: 0 47.5px;
+              padding: 70px 0;
+
+          }
+          .footer ul li {
+              color: #757575;
+             }
+             .footer-links{
+                 font-size: 13px;
+                 line-height: 2;
+
+
+             }
+             .footer ul li:hover {
+                 text-decoration: underline;
+                color: #757575;
+                cursor: pointer;
+               }
+
+         .contact-us{
+             display: flex;
+             color: #757575;
+             padding: 0 0 30px 0px;
+
+         }
+         .contact-us > p {
+             padding-right: 7px;
+
+         }
+         .contact-us > a { 
+             color: #757575;
+        }
+        .contact-us > a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+
+        }
+        .footer-links{
+            list-style-type: none;
+            columns: 4;
+            padding: 0;
+}
+
+.netflix-footer-title {
+    color: #757575;
+    line-height: 8;
+
+}
+       
+             
+
+         
+        
+
+
+
+     
+
+
+
+
+
+
+
+
