@@ -83,7 +83,6 @@ body {
     height: 60px;
     display: flex;
 
-
 }
 .get-started-form >input {
     height: 60px;
@@ -99,13 +98,12 @@ body {
     padding: 0 26px;
     border-left: 1px solid black;
 
-
 }
+/* info container */
 .info-container{
     background-color: black;
     color: white;
     display: flex;
-   
     padding: 70px 0px 70px 120px;
     border-bottom: 10px solid #222222;
 }
@@ -147,7 +145,6 @@ body {
 #img-relative{
     position: relative;
     height: 379px;
-
 }
 #img-absolute{
     height: 72px;
@@ -174,14 +171,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 3px solid #313035;
+    border: 3px solid #5d5c60;
     height: 96px;
     width: 330px;
     border-radius: 10px;
     padding: 0.5em 0.75em;
-    
-
-
 }
 .in-card-text{
     font-size: 1em;

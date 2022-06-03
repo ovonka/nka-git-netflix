@@ -1,28 +1,179 @@
-@media (max-width: 758px) and (min-width: 480px) {
+@media (max-width: 480px) {
+   
+    /* Nav bar */
+    .navbar{
+        margin: 0 25px;
+    }
 
+    .navbar > img {
+        height: 24px;
+        width: 100px;
+    
+    } 
+    .navbar > a{
+        padding: 3px 8px;
+        height: 27px;
+        font-weight: 400;
+        color: white;
+        background-color: red;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    /* Banner Container */
+    .banner-wrap{ 
+        height: 479px;
+        width: 100%;
+        
+    }
+    .banner-container{
+        height: calc(100% - 40px);
+        text-align: center;
+    }
+    .card-title{
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.1;
+        font-size: 28px;
+        font-weight: 700; 
+    }
     .card-subtitle{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 400;
         margin: 1rem 0;
     }
-    .info-container {
+    .email-form-title {
+        font-size: 1.1rem;
+        font-weight: 400 ;
+        padding: 0 18px 16px 18px;
+        margin-bottom: 25px;
+        
+    }
+    .get-started-form{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        align-items: center;
-        padding: 70px 45px;
     }
-    .info{
-        padding: 40px 0 0 65px;
+    .get-started-form >input {
+        font-size: 16px;
+        width: 20.6rem;
+        padding: 15px 10px 15px 10px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius:2px ;
+        border: 1px;
+        outline: none;
+        margin-bottom: 15px;
+    }
+    .get-started-form > button {
+        margin: 4px 0;
+        padding: 10px 14px;
+        background-color: rgb(118, 20, 20)(238, 34, 34);
+        color: white;
+        font-size: 14px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius:2px ;  
+    }
+    /* info container */
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-
+        justify-content: center;
+        padding: 40px 10px 0 10px;
+    }
+    .info > p {
+        text-align: center;
     }
     .tv-container{
-        padding: 40 0 0 65px;
+        margin-bottom: 35px;
+    }
+    .tv-container img{
+        width: 351px;
+        height: 263px;
+    }
+    .tv-container video {
+        width: 260px;
+        height: 269px;
 
     }
+    .story-card{
+        margin-bottom: 60px;
+    }
+    .story-card-info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+    .story-info{
+        padding: 40px 0;
+    }
+    .story-info > .card-title, .card-subtitle{
+        text-align: center;
+    }
+    .card-title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    #img-relative{
+        height: 240px;
+    }
+    #img-absolute{
+        height: 48px;
+    }
+    .card-container{
+        height: 64px;
+        width: 264px;
+    }
+    .in-card-text{
+        display: none;
+    }
+    .location-text{
+     padding: 50px 19px;
+    }
+    .location-text > .card-title{
+     text-align: center;
+    }
+    .location-text > .card-subtitle{
+        text-align: center;
+    }
+    .animation-info{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
     
-
-
-
+    .animation-card{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 19px;
+    }
+    .animation-card > h1, h2 {
+        text-align: center;
+    }
+    .animation-card > img {
+      
+        height: 265px;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .footer-links{
+        list-style-type: none;
+        columns: 2;   
+}
+.netflix-footer-title{
+    margin-bottom: 5px;
+}
     }
