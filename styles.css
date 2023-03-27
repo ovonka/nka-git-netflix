@@ -189,24 +189,26 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 2rem 0 0 6rem;
-    
-    
     }
-    .location-text{
+    .story-info ol {
+        display: flex;
+        justify-content: space-between;
+    }
+.location-text{
         background-color: black;
         color: white;
         padding: 45px 110px;
         border-bottom: 10px solid #222222;
         }
 
-    .animation-card{
+.animation-card{
         color: white;
         background-color: black;
         padding: 45px 70px;
         display: flex;
         border-bottom: 10px solid #222222;
       }
-      .animation-card > img {
+.animation-card > img {
           height: 382px;
        }
        .animation-info{
@@ -276,6 +278,10 @@ body {
     color: #757575;
     line-height: 8;
 
+}
+.social-links a{
+    color: #757575;
+    padding-right: 5px;
 }
        
              
